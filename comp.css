@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #706e6f;
+    display: flex;
+}
+#left{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    background-color:#b43938;
+}
+#middle{
+    height: 100%;
+    width: 40%;
+    background-color:  #706e6f;
+}#right{
+    height: 100%;
+    width: 30%;
+    background-color: #b43938;
+}
+#li{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    height: 2px;
+    width:50%;
+    background-color: rgb(80, 122, 158);
+}
+#li1{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+h2{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+}
+#wel{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    font-size: 60px;
+}
+p{
+    position:absolute;
+    top: 41%;
+    left: 10%;
+    color: white;
+    font-size: 17px;
+}
+a{
+    position: absolute;
+    top:52% ;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+#zero{
+    position:absolute;
+    top: 78%;
+    left: 10%;
+    color: white;
+}
+#zero1{
+    position:absolute;
+    top: 78%;
+    left: 75%;
+    color: white;
+}
+#line{
+    position: absolute;
+    top: 12%;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+#search{
+    position: absolute;
+    top: 5%;
+    right:3%;
+    color: white;
+    font-size: 25px;
+}
+#share{
+    position: absolute;
+    top: 5%;
+    right:7%;
+    color: white;
+    font-size: 25px;
+
+}
+#fi{
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    height: 750px;
+    width: 780px;
+    z-index: 1;
+}
+#th{
+    position: absolute;
+    top: 20%;
+    left: 74.5%;
+    height: 33%;
+    width: 22%;
+}
+#fo{
+    position: absolute;
+    top: 65%;
+    left: 74.5%;
+    height: 33%;
+    width: 22%;
+}
